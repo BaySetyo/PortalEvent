@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_margin="3dp"
+    android:elevation="50dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="15dp"
+    android:id="@+id/cardView">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/EvFoto"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp" />
+
+        <TextView
+            android:id="@+id/NameEvent"
+            android:textColor="#000000"
+            android:maxLines="1"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/EvFoto"
+            android:fontFamily="@font/mregular"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/NameEvent"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@+id/EvFoto"
+            android:textSize="14sp"
+            android:fontFamily="@font/mlight"/>
+
+        <TextView
+        android:id="@+id/Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Date"
+            android:layout_marginBottom="5dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/mlight"
+        android:layout_toRightOf="@+id/EvFoto" />
+
+        <TextView
+            android:id="@+id/Link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Location"
+            android:layout_marginBottom="5dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/mlight"
+            android:layout_toRightOf="@+id/EvFoto" />
+
+        <TextView
+            android:id="@+id/Category"
+            android:textSize="14sp"
+            android:fontFamily="@font/mlight"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Link"
+            android:layout_toRightOf="@+id/EvFoto" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    tools:context=".DetailEventActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
+        android:background="@drawable/bg_buttom_primariy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="365dp"
+            android:layout_height="330dp"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/bg_detail_event"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RelativeLayout
+            android:id="@+id/layoutImage"
+            android:layout_width="410dp"
+            android:layout_height="310dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="30dp">
+
+            <com.github.florent37.shapeofview.shapes.RoundRectView
+                android:layout_width="350dp"
+                android:layout_height="310dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp">
+
+                <ImageView
+                    android:id="@+id/IvGambar"
+                    android:layout_width="350dp"
+                    android:layout_height="310dp"
+
+                    />
+            </com.github.florent37.shapeofview.shapes.RoundRectView>
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/layoutMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutImage"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="20dp"
+            app:cardElevation="2dp">
+
+            <ScrollView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/jdevent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/mmedium"
+                    android:textColor="#000000"
+                    android:text="Title Event"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Date"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/mregular"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    android:id="@+id/tanggal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="TextView"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/mlight"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Link Registration"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/mregular"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    android:id="@+id/reglink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="TextView"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/mlight"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Location"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/mregular"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    android:id="@+id/tempat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="TextView"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/mlight"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:text="Category"
+                    android:fontFamily="@font/mregular"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/kategori"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="TextView"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/mlight"
+                    android:textSize="16sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:text="Description"
+                    android:fontFamily="@font/mregular"
+                    android:textSize="20sp"
+                    />
+                <TextView
+                    android:id="@+id/deskripsi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="TextView"
+                    android:layout_marginBottom="30dp"
+                    android:fontFamily="@font/mlight"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/appbar_detail_event" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

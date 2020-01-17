@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bunglon2.bunglonpe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DetailEventActivity"></activity>
+        <activity android:name=".UpdateEventActivity" />
+        <activity android:name=".EditProfileAct" />
+        <activity android:name=".SuccessAct" />
+        <activity android:name=".AddEventAct" />
+        <activity android:name=".MyEventAct" />
+        <activity android:name=".PublicEventAct" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterTwoAct" />
+        <activity android:name=".RegisterOneAct" />
+        <activity android:name=".SignInAct" />
+        <activity android:name=".GetStartedAct" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

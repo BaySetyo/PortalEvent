@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "236069525615",
+    "firebase_url": "https://bunglonpe-ca330.firebaseio.com",
+    "project_id": "bunglonpe-ca330",
+    "storage_bucket": "bunglonpe-ca330.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236069525615:android:59e78228c237a28ba7559a",
+        "android_client_info": {
+          "package_name": "com.bunglon2.bunglonpe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236069525615-meeli26vqat686evbvngchnnr3rvq809.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bunglon2.bunglonpe",
+            "certificate_hash": "b9a959f8c7711eaa545704fd3979008699490e12"
+          }
+        },
+        {
+          "client_id": "236069525615-ts5hf35d6cdkqg9cq9rjjntu8548ckeh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBihV5GA_iKIZT5VVk_aGJH2i0TZ__IBbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236069525615-ts5hf35d6cdkqg9cq9rjjntu8548ckeh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

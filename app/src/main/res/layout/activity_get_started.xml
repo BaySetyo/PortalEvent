@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_primari_blue"
+    tools:context=".GetStartedAct">
+
+
+    <ImageView
+        android:id="@+id/Splashsrc"
+        android:layout_width="152dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="124dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/mregular"
+        android:lineSpacingExtra="9dp"
+        android:text="PUBLISH \nYOUR AMAZING \nEVENT HERE"
+        android:textColor="#FFF"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Splashsrc" />
+
+    <Button
+        android:id="@+id/btn_Signin"
+        android:layout_width="274dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="96dp"
+        android:fontFamily="@font/mmedium"
+        android:background="@drawable/bg_btn_blue"
+        android:text="@string/signin"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btn_new_account_create"
+        android:layout_width="274dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/mmedium"
+        android:background="@drawable/bg_btn_white"
+        android:text="@string/newaccount"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Signin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

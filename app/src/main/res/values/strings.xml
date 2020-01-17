@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">bunglonPE</string>
+    <string name="deskripsi">Description</string>
+    <string name="kategori">Category</string>
+    <string name="tempat">Location</string>
+    <string name="jam">Jam</string>
+    <string name="tanggal">Date</string>
+    <string name="nama">Event Name</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="email_label">Email</string>
+    <string name="name_label">Name</string>
+    <string name="bio_label">Your Passion?</string>
+    <string name="login">Login</string>
+    <string name="nameapp">PORTAL EVENT</string>
+    <string name="signin">SIGN IN</string>
+    <string name="signout">SIGN OUT</string>
+    <string name="editprofile">EDIT PROFILE</string>
+    <string name="newaccount">NEW ACCOUNT</string>
+</resources>
